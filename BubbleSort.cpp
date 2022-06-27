@@ -1,6 +1,8 @@
 #include<iostream>
 using namespace std;
 
+/* Worst cas- O(n^2)
+
 void bubbleSort(int arr[], int n){
 	for(int j=0;j<n-1;j++){
 	
