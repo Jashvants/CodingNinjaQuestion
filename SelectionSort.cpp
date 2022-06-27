@@ -1,6 +1,13 @@
 #include<iostream>
 using namespace std;
 
+/* Time complexity of selection sort algorithm.
+1.Best Case : Ω(n^2)
+2.Worst Case :	θ(n^2)
+3.Average Case : O(n^2)
+*/
+
+
 void selectionSort(int input[] , int n){
 	for(int i=0;i<n-1;i++){
 		//find min element in array
