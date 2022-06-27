@@ -1,5 +1,9 @@
 #include<iostream>
 
+
+// ARRAY MUST BE SORTED IN BINARY SEARCH 
+// IF ARRAY IS UNSORTED THEN IT WONT WORK
+
 using namespace std;
 
 int binarySearch(int *input,int n,int val){
