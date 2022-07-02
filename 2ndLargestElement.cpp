@@ -5,6 +5,7 @@ using namespace std;
 int findSecondLargest(int *arr,int size){
 	if(size<=0){
 		return INT_MIN;
+		
 	}
 	int largest=arr[0];
 	
